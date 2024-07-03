@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;com.kitae.Mini1Project.java&apos; to &apos;game.java&apos;&#x0D;&#x0A;- Original project: &apos;mini1-project&apos;&#x0D;&#x0A;- Original element: &apos;com.kitae.Mini1Project.java&apos;&#x0D;&#x0A;- Renamed element: &apos;com.kitae.game.java&apos;" description="Rename compilation unit &apos;Mini1Project.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;com.kitae{Mini1Project.java" name="game.java" references="false" stamp="1717576403052" version="1.0"/>
+</session>
