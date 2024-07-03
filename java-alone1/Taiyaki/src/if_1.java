@@ -1,19 +1,15 @@
 
 public class if_1 {
+	
+	
+	
+	int 붕어빵_온도 = 180;
 
-	public static void main(String[] args) {
-		switch (변수) {
-	    case 값1:
-	        // 값1일 때 실행되는 코드
-	        break;
-	    case 값2:
-	        // 값2일 때 실행되는 코드
-	        break;
-	        // 필요한 만큼 case 추가
-	    default:
-	        // 모든 case에 해당하지 않을 때 실행되는 코드
-	    }
-
+	if (붕어빵_온도 > 200) {
+	    System.out.println("붕어빵이 너무 뜨겁습니다!");
+	} else {
+	    System.out.println("붕어빵을 먹기에 적당한 온도입니다.");
 	}
-
+	
+	
 }
