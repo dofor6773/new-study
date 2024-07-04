@@ -1,4 +1,5 @@
 package tset;
+
 public class Taiyaki {
     // 필드
     private String flavor;

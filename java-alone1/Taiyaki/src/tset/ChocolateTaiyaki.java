@@ -1,4 +1,5 @@
 package tset;
+
 public class ChocolateTaiyaki extends Taiyaki {
     // 추가 필드
     private boolean hasSprinkles;
