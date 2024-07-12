@@ -8,3 +8,6 @@ git commit --amend -m '메시지 내용' -> 현재 HEAD에 있는 commit메시�
 git commit -a -m '메시지 내용' -> git add + git commit -m 기능
 
 branch
+
+master브랜치에 있는 test2.txt파일에서 각각의 merge-test1브랜치와 merge-test2브랜치를 만들어 충돌이 나게끔
+만들고 master브랜치에 merge-test1브랜치와 merge-test2브랜치를 merge를 해서 충돌을 해결하는 실습
