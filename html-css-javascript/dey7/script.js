@@ -35,3 +35,9 @@ console.log('num4:', num4);
 let num5 = 11;
 num5 = 13;
 console.log('num5:', num5);
+
+// ==, === 연산자 비교
+// == -> 10 == '10' true
+// === -> 10 === '10' false
+console.log(typeof(10)); // -> number
+console.log(typeof('10')); // -> string
