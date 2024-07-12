@@ -1,0 +1,16 @@
+파이썬: 데이터 분석, 머신러닝, 딥러닝, 웹사이트개발
+자바: 객체지향(OPP)
+SQL: DB(조회, 수정, 삭제, 삽입)(CRUD)
+
+     -> 자바 + sql, 파이썬 + sql -> 백엔드 개발
+html: 브라우저 웹사이트 화면설계 구조 개발 -> 정적 페이지
+css: 화면설계 구조에 스타일링 입히는 언어 -> 정적 페이지
+자바스크립트: html과 css로 만들어진 것들을 동적인 페이지로 바꾸는 언어
+    -> html + css + javascript -> 프론트 개발
+    -> javascript + sql -> 백엔드 개발
+
+프레임워크 추가
+css: bootstrap, tailwindcss, sass(sass) etc...
+파이썬: pandas, numpy, sckit-learn, tensorflow, pytorch, djanggo, flask, fastapi, et
+자바: jsp, android, spring(spring boot) etc...
+자바스크립트(nodejs): jquery, angular, react, vue, nestjs, nextjs, express etc... 
