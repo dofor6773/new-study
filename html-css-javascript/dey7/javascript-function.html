@@ -13,26 +13,26 @@
         // gugudan1(); // error -> const로 받은 함수는 const의 값으로만 호출 가능
 
         function gugudan2() {
-            console.log('gugudan2함수 호출');
+            console.log('gugdan2함수 호출');
             return 1;
         }
         let num1 = gugudan2();
         console.log('num1:', num1);
 
-        const gugudan3 = function (a = 10, b = 11) { // 익명함수
+        const gugudan3  = function (a = 10, b = 11) { // 익명함수
             console.log('gugudan3함수 호출');
-            console.log('a:', a)
+            console.log('a:', a);
         }
         gugudan3();
 
-        const gugudan4 = (a, b) => {       // 화살표함수
+        const gugudan4 = (a, b) => {  // 화살표 함수
             console.log('gugudan4함수 호출');
 
             console.log('a:', a);
         }
         gugudan4();
 
-        let result = sum('a', 'b');      // 호이스팅 가능하여 호출이 가능
+        let result = sum('a', 'b');  // 호이스팅 가능하여 호출이 가능
         function sum(num1, num2) {
             if (typeof num1 !== 'number' || typeof num2 !== 'number') {
                 return;
@@ -48,8 +48,8 @@
 
         // 즉시실행함수
         (function init() {
-            console.log('initialize----------------');
-        }) ();
+            console.log('intialize--------------');
+        })();
         
     </script>
 </body>

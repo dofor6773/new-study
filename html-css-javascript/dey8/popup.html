@@ -6,12 +6,11 @@
     <title>Document</title>
 </head>
 <body>
+    <button onclick="popup()">팝업</button>
     <script>
-        // if (person == undefined || person == null || person == '' || person == NaN || person == 0) {
-        if (!person) {}
-            console.log('person이 없습니다.');
-    }
-    
+        function popup(){
+            window.open('window1.html', '팝업', 'width=200, height=100');
+        }
     </script>
 </body>
 </html>
