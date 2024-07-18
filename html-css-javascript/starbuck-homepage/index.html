@@ -34,6 +34,7 @@
     <!-- swiper 6.8.4 -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.8.4/swiper-bundle.min.js" integrity="sha512-BABFxitBmYt44N6n1NIJkGOsNaVaCs/GpaJwDktrfkWIBFnMD6p5l9m+Kc/4SLJSJ4mYf+cstX98NYrsG/M9ag==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.8.4/swiper-bundle.min.css" integrity="sha512-aMup4I6BUl0dG4IBb0/f32270a5XP7H1xplAJ80uVKP6ejYCgZWcBudljdsointfHxn5o302Jbnq1FXsBaMuoQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script defer src="./js/youtube.js"></script>
     <script defer src="./js/main.js"></script>
 </head>
 <body>
@@ -271,20 +272,109 @@
             <div class="swiper-pagination"></div>
             <div class="swiper-prev">
                 <span class="material-symbols-outlined">
-                    arrow_circle_left
+                    <!-- arrow_circle_left -->
+                    arrow_back
                 </span>
             </div>
             <div class="swiper-next">
                 <span class="material-symbols-outlined">
-                    arrow_circle_right
+                    <!-- arrow_circle_right -->
+                    arrow_forward
                 </span>
             </div>
         </div>
     </section>
 
-    <section class="visual3"></section>
-    <section class="visual4"></section>
-    <section class="visual5"></section>
-    <section class="visual6"></section>
-</body>
+    <!-- rewards -->
+    <section class="rewards">
+        <div class="bg-left"></div>
+        <div class="bg-right"></div>
+        <div class="inner">
+            <div class="btn-group">
+                <div class="btn sign-up">회원가입</div>
+                <div class="btn sign-in">로그인</div>
+                <div class="btn gift">e-Gift 선물하기</div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- youtube와 함께하는 starbucks -->
+    <section class="youtube">
+        <div class="youtube__area">
+            <div id="player">
+
+            </div>
+        </div>
+        <div class="youtube__cover"></div>
+        <div class="inner">
+            <img src="../images/starbucks/floating1.png" class="floating floating1" />
+            <img src="../images/starbucks/floating2.png" class="floating floating2" />
+        </div>
+    </section>
+
+    <!-- 시즌 제품 starbucks -->
+    <section class="season-product">
+        <div class="inner">
+            <img src="../images/starbucks/floating3.png" class="floating floating3" />
+            <img src="../images/starbucks/season_product_image.png" alt="season product image" class="product" />
+            <div class="text-group">
+                <img src="../images/starbucks/season_product_text1.png" alt="season product title" class="title" />
+                <img src="../images/starbucks/season_product_text2.png" alt="season product description" class="description" />
+                <div class="more">
+                    <a href="javascript:void(0);" class="btn">자세히 보기</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- reserve starbucks -->
+    <section class="reserve-coffee">
+        <div class="inner">
+            <img src="../images/starbucks/reserve_logo.png" class="reserve-logo"/>
+            <div class="text-group">
+                <img src="../images/starbucks/reserve_text.png" alt="season product description" class="description" />
+                <div class="more">
+                    <a href="javascript:void(0);" class="btn btn--gold">자세히 보기</a>
+                </div>
+            </div>
+            <img src="../images/starbucks/reserve_image.png" class="product"/>
+        </div>
+    </section>
+
+    <!-- pick your favorite -->
+    <section class="pick-your-favorite">
+        <div class="inner">
+            <div class="text-group">
+                <img src="../images/starbucks/favorite_text1.png" alt="" class="title" />
+                <img src="../images/starbucks/favorite_text2.png" alt="" class="description" />
+                <div class="more">
+                    <a href="javascript:void(0);" class="btn btn--white">자세히 보기</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- reserve store -->
+    <section class="reserve-store">
+        <div class="inner">
+            <div class="container">
+                <div class="item front">
+                    <img src="../images/starbucks/reserve_store_medal_front.png" alt="reserve store1 front" />
+                </div>
+                <div class="item back">
+                    <img src="../images/starbucks/reserve_store_medal_back.png" alt="reserve store1 back" />
+                    <a href="javascript:void(0)" class="btn">
+                        매장안내
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- find store -->
+     <section class="find-store">
+        <div class="inner">
+
+        </div>
+    </section>
 </html>
