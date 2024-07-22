@@ -1,7 +1,7 @@
 console.log('starbucks main.js파일');
 
-const searchEl = document.querySelector('.search');
-const searchInputEl = document.querySelector('input');
+// const searchEl = document.querySelector('.search');
+// const searchInputEl = document.querySelector('input');
 
 // class가 search로 박스를 클릭했을 경우 이벤트 등록
 searchEl.addEventListener('click', function() {
